@@ -1,0 +1,8 @@
+{
+  "name": "St. Mira\u0027s College for Girls Academic Calendar",
+  "description": "A modern college event and calendar management system with role-based auth, department filtering, event CRUD, and PDF export.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,336 @@
+{
+  "academic_years": [
+    {
+      "id": 3,
+      "year": "2025-2026"
+    },
+    {
+      "id": 5,
+      "year": "2026-2027"
+    }
+  ],
+  "departments": [
+    {
+      "id": 1,
+      "name": "College Overall"
+    },
+    {
+      "id": 2,
+      "name": "Computer Science"
+    },
+    {
+      "id": 3,
+      "name": "Commerce & Economics"
+    },
+    {
+      "id": 4,
+      "name": "Arts & Humanities"
+    }
+  ],
+  "event_types": [
+    {
+      "id": 1,
+      "name": "Holiday",
+      "color": "#ef4444"
+    },
+    {
+      "id": 2,
+      "name": "Exam",
+      "color": "#3b82f6"
+    },
+    {
+      "id": 3,
+      "name": "Admission",
+      "color": "#10b981"
+    },
+    {
+      "id": 4,
+      "name": "Cultural",
+      "color": "#ec4899"
+    },
+    {
+      "id": 5,
+      "name": "Sports",
+      "color": "#f59e0b"
+    },
+    {
+      "id": 6,
+      "name": "Academic",
+      "color": "#8b5cf6"
+    },
+    {
+      "id": 7,
+      "name": "Staff Meeting",
+      "color": "#6b7280"
+    }
+  ],
+  "teachers": [
+    {
+      "id": 1,
+      "first_name": "Principal",
+      "last_name": "Administrator",
+      "department_id": 1,
+      "phone": "+1 555-0100",
+      "email": "admin@college.edu",
+      "role": "admin",
+      "password_hash": "$2b$10$nR50gnkaACxncZppuchZaeEpOxT3SKAgQdHbf2E99k4c0zuiWg/jG"
+    },
+    {
+      "id": 5,
+      "first_name": "Devyani",
+      "last_name": "Rupeeja",
+      "email": "devyani.rupeeja@stmirascollegepune.edu.in",
+      "phone": "+1 555-9999",
+      "department_id": 2,
+      "role": "teacher",
+      "password_hash": "$2b$10$98WoSZRXs1uU/dqY.Lqbne7MQ20ztwXGjU04GzxBCeqriiv7NYXg."
+    }
+  ],
+  "events": [
+    {
+      "id": 25,
+      "name": "WORKSHOP ON AI - TEST",
+      "academic_year_id": 5,
+      "date": "2026-10-10",
+      "teacher_id": 1,
+      "department_id": 2,
+      "class_section": "All Batches",
+      "event_type_id": 6,
+      "description": "SESSION ETHICS OF AI",
+      "venue": "Auditorium",
+      "start_time": "09:00",
+      "end_time": "10:00"
+    },
+    {
+      "id": 26,
+      "name": "SESSION ON ML",
+      "academic_year_id": 3,
+      "date": "2026-10-10",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "All Batches",
+      "event_type_id": 6,
+      "description": "AWARENESS SESSION ON ML",
+      "venue": "Auditorium",
+      "start_time": "10:00",
+      "end_time": "11:00"
+    },
+    {
+      "id": 27,
+      "name": "SESSION ON MACHINE LEARNING",
+      "academic_year_id": 5,
+      "date": "2026-09-10",
+      "teacher_id": 5,
+      "department_id": 2,
+      "class_section": "All Batches",
+      "event_type_id": 6,
+      "description": "",
+      "venue": "Auditorium",
+      "start_time": "09:00",
+      "end_time": "10:00"
+    },
+    {
+      "id": 101,
+      "name": "International Yoga Day Celebration",
+      "academic_year_id": 5,
+      "date": "2026-06-21",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "All Batches",
+      "event_type_id": 5,
+      "description": "Morning yoga and wellness session at the college auditorium.",
+      "venue": "Auditorium",
+      "start_time": "07:30",
+      "end_time": "09:00"
+    },
+    {
+      "id": 102,
+      "name": "Degree Admissions First Merit List Verification",
+      "academic_year_id": 5,
+      "date": "2026-07-06",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "FY Applicants",
+      "event_type_id": 3,
+      "description": "Document verification and fee submission for first merit list candidates.",
+      "venue": "Classroom",
+      "start_time": "09:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": 103,
+      "name": "FY Orientation & Student Induction Program",
+      "academic_year_id": 5,
+      "date": "2026-07-16",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "FY Students",
+      "event_type_id": 6,
+      "description": "Welcome address by Principal and introduction to campus resources.",
+      "venue": "Auditorium",
+      "start_time": "10:00",
+      "end_time": "12:30"
+    },
+    {
+      "id": 104,
+      "name": "Independence Day Celebrations & Flag Hoisting",
+      "academic_year_id": 5,
+      "date": "2026-08-15",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "All Batches",
+      "event_type_id": 4,
+      "description": "Patriotic cultural program and address by the Principal.",
+      "venue": "Sanctuary",
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": 105,
+      "name": "Mid-Semester Unit Tests - Phase 1",
+      "academic_year_id": 5,
+      "date": "2026-08-24",
+      "teacher_id": 1,
+      "department_id": 3,
+      "class_section": "SY & TY B.Com",
+      "event_type_id": 2,
+      "description": "Written continuous internal evaluation tests across subjects.",
+      "venue": "Classroom",
+      "start_time": "09:00",
+      "end_time": "12:00"
+    },
+    {
+      "id": 106,
+      "name": "Ganesh Chaturthi Institutional Holiday",
+      "academic_year_id": 5,
+      "date": "2026-09-14",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "All Batches",
+      "event_type_id": 1,
+      "description": "Institutional holiday for Ganesh Chaturthi festival.",
+      "venue": "Classroom",
+      "start_time": "09:00",
+      "end_time": "17:00"
+    },
+    {
+      "id": 107,
+      "name": "Annual Inter-College Sports Championship Trials",
+      "academic_year_id": 5,
+      "date": "2026-10-18",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "All Batches",
+      "event_type_id": 5,
+      "description": "Selections for Basketball, Badminton, Athletics, and Table Tennis teams.",
+      "venue": "Sanctuary",
+      "start_time": "09:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": 108,
+      "name": "Diwali Autumn Vacation / Break",
+      "academic_year_id": 5,
+      "date": "2026-11-04",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "All Batches",
+      "event_type_id": 1,
+      "description": "Autumn vacation break for staff and students.",
+      "venue": "Classroom",
+      "start_time": "09:00",
+      "end_time": "17:00"
+    },
+    {
+      "id": 109,
+      "name": "Commencement of Even Semester Classes",
+      "academic_year_id": 5,
+      "date": "2026-12-01",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "All Batches",
+      "event_type_id": 6,
+      "description": "Resumption of classes after Diwali break for even semester.",
+      "venue": "Classroom",
+      "start_time": "08:30",
+      "end_time": "14:00"
+    },
+    {
+      "id": 110,
+      "name": "Annual Cultural Festival \"Spandan 2026\"",
+      "academic_year_id": 5,
+      "date": "2026-12-22",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "All Batches",
+      "event_type_id": 4,
+      "description": "Annual inter-departmental music, dance, drama, and art competition.",
+      "venue": "Auditorium",
+      "start_time": "09:30",
+      "end_time": "16:00"
+    },
+    {
+      "id": 111,
+      "name": "Republic Day Parade & NCC Drill",
+      "academic_year_id": 5,
+      "date": "2027-01-26",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "All Batches",
+      "event_type_id": 4,
+      "description": "Republic Day celebration, flag hoisting, and award distribution.",
+      "venue": "Sanctuary",
+      "start_time": "08:30",
+      "end_time": "10:30"
+    },
+    {
+      "id": 112,
+      "name": "National Science Day Innovation Exhibition",
+      "academic_year_id": 5,
+      "date": "2027-02-28",
+      "teacher_id": 5,
+      "department_id": 2,
+      "class_section": "B.Sc Computer Science",
+      "event_type_id": 6,
+      "description": "Science project demonstration, AI poster presentation, and guest lecture.",
+      "venue": "AV room",
+      "start_time": "10:00",
+      "end_time": "14:00"
+    },
+    {
+      "id": 113,
+      "name": "Semester End Examinations",
+      "academic_year_id": 5,
+      "date": "2027-03-22",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "All Batches",
+      "event_type_id": 2,
+      "description": "University end semester written theory examinations.",
+      "venue": "Classroom",
+      "start_time": "10:00",
+      "end_time": "13:00"
+    },
+    {
+      "id": 114,
+      "name": "Annual Degree Convocation Ceremony",
+      "academic_year_id": 5,
+      "date": "2027-04-15",
+      "teacher_id": 1,
+      "department_id": 1,
+      "class_section": "Graduating Batch 2026-27",
+      "event_type_id": 6,
+      "description": "Conferment of degrees and distribution of academic excellence medals.",
+      "venue": "Auditorium",
+      "start_time": "10:00",
+      "end_time": "13:30"
+    }
+  ],
+  "next_ids": {
+    "academic_year": 8,
+    "department": 9,
+    "teacher": 6,
+    "event_type": 9,
+    "event": 116
+  }
+}
